@@ -22,4 +22,6 @@ int main(int argc, char *argv[]) {
 	
 	// MPI_Reduce(num, &result, 6, MPI_INT, MPI_MIN, 0, MPI_COMM_WORLD);
 	// printf("%d\n", result);
+	MPI_Finalize();
+	return 0;
 }
